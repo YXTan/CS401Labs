@@ -1,8 +1,8 @@
 
 public class World {
-    private int[][] world = new int[5][10];
+    private int[][][][][] world = new int[10][10][10][10][10];
     
-    public int[][] getWorld(){
+    public int[][][][][] getWorld(){
         return world;
     }
     
